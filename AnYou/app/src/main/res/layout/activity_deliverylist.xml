@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/x27"
+    android:layout_marginRight="@dimen/x27"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/x40"
+        android:text="出库单据下载"
+        android:textColor="#000000"
+        android:textSize="@dimen/x60" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="@dimen/x1500"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x27"
+            android:background="@drawable/bg_searchview"
+            android:drawableLeft="@drawable/ss_icon"
+            android:gravity="center_horizontal"
+            android:hint="请输入搜索内容"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:padding="@dimen/x18"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/iv_sm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x50"
+            android:src="@drawable/sm_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:layout_marginLeft="@dimen/x27"
+        android:layout_marginRight="@dimen/x27"
+        android:layout_marginTop="@dimen/x30"
+        android:background="#6AB1ED"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x320"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="日期"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x320"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="单号"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x780"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="供应商名称"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x287"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="点击下载"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/DeliveryList_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/x27"
+        android:layout_marginRight="@dimen/x27"
+        android:layout_weight="1"
+        android:divider="@color/colorItemLine"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

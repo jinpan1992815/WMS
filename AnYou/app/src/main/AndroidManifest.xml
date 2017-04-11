@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.bosyun.anyou">
+
+    <!-- 蒲公英必选-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取网络状态 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络通信-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />  <!-- 获取设备信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取MAC地址-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 读写sdcard，storage等等 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 允许程序录制音频 -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+
+    <application
+        android:name="crash.CrashApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_l"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 主界面 -->
+        <activity
+            android:name="activity.MainActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"> <!-- 强制横屏和软键盘默认不弹出-->
+        </activity>
+
+        <!-- 登陆界面 -->
+        <activity
+            android:name="activity.LoginActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 采购入库界面 -->
+        <activity
+            android:name="activity.BuyActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 销售出库界面 -->
+        <activity
+            android:name="activity.SellActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 生产收货界面 -->
+        <activity
+            android:name="activity.MakeActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 库存转储直接制单界面 -->
+        <activity
+            android:name="activity.SaveActivity1"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 库存转储复制到界面 -->
+        <activity
+            android:name="activity.SaveActivity2"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 出库单下载打印界面 -->
+        <activity
+            android:name="activity.DeliveryListActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 采购退货直接制单界面 -->
+        <activity
+            android:name="activity.BuyReturnActivity1"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 采购退货搜索未清界面 -->
+        <activity
+            android:name="activity.BuyReturnActivity2"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 销售退货直接制单界面 -->
+        <activity
+            android:name="activity.SellReturnActivity1"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 销售退货直接制单界面 -->
+        <activity
+            android:name="activity.SellReturnActivity2"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 历史单据查询界面 -->
+        <activity
+            android:name="activity.HistoryListActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 库存收货界面 -->
+        <activity
+            android:name="activity.InventoryReceiptActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 库存收货界面 -->
+        <activity
+            android:name="activity.InventoryIssueActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 二维码扫描界面 -->
+        <activity
+            android:name="com.xys.libzxing.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 签名界面 -->
+        <activity
+            android:name="activity.HandWriteActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- 教程界面 -->
+        <activity
+            android:name="activity.TeachActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- 蒲公英必选-->
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="23090d2de54641b4035e71cbd7b68e5e"></meta-data>
+    </application>
+</manifest>

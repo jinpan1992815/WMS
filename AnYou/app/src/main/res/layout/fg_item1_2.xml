@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/pager2_item1"
+        android:layout_width="@dimen/x200"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="2016.08.03"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/pager2_item2"
+        android:layout_width="@dimen/x200"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="到货通知单号"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/pager2_item3"
+        android:layout_width="@dimen/x400"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="供货商"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/pager2_item4"
+        android:layout_width="@dimen/x228"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="车牌号"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/pager2_item5"
+        android:layout_width="@dimen/x166"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:text="订单量(kg)"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/pager2_item6"
+        android:layout_width="@dimen/x166"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:text="待收量(kg)"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <Button
+        android:id="@+id/pager2_item7"
+        android:layout_width="@dimen/x252"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/fz_ic"
+        android:padding="@dimen/x30"
+        android:text="复制到"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/x40"
+        android:text="销售退货"
+        android:textColor="#000000"
+        android:textSize="@dimen/x60" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x27"
+        android:layout_marginRight="@dimen/x27"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y80"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/y100"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="客户编码:"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorItemLine" />
+
+            <TextView
+                android:id="@+id/buyreturn2_tv1"
+                android:layout_width="@dimen/x443"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x20"
+                android:background="@drawable/bg_nochecked"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x220"
+                android:background="@color/colorItemLine" />
+
+            <TextView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/y100"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="过账日期:"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorItemLine" />
+
+            <TextView
+                android:id="@+id/buyreturn2_tv2"
+                android:layout_width="@dimen/x443"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x20"
+                android:background="@drawable/bg_time"
+                android:drawableRight="@drawable/dx_02"
+                android:text="2016.08.03"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemLine" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y80"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/y100"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="客户名称:"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorItemLine" />
+
+            <TextView
+                android:id="@+id/buyreturn2_tv3"
+                android:layout_width="@dimen/x643"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x20"
+                android:background="@drawable/bg_nochecked"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x20"
+                android:background="@color/colorItemLine" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:layout_marginLeft="@dimen/x101"
+        android:layout_marginRight="@dimen/x102"
+        android:layout_marginTop="@dimen/y30"
+        android:background="#6AB1ED"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x200"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="编码"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x400"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="描述"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x153"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="包数"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x153"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="数量"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="仓库"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x400"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="批次"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/buyreturn2_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x41"
+        android:layout_marginRight="@dimen/x102"
+        android:divider="@drawable/list_item_divider"
+        android:dividerHeight="1dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

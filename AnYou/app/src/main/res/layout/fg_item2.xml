@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/sell_item1"
+        android:layout_width="@dimen/x300"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/sell_item2"
+        android:layout_width="@dimen/x300"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/sell_item3"
+        android:layout_width="@dimen/x550"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/sell_item4"
+        android:layout_width="@dimen/x216"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <Button
+        android:id="@+id/sell_item5"
+        android:layout_width="@dimen/x252"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/fz_ic"
+        android:padding="@dimen/x30"
+        android:text="复制到"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+</LinearLayout>

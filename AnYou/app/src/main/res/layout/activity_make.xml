@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/x40"
+        android:text="生产收货"
+        android:textColor="#000000"
+        android:textSize="@dimen/x60" />
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="生产日期"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:id="@+id/make_tv1"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="2016.08.04"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="编码"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:id="@+id/make_tv2"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="#E4E4E4"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="描述"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:id="@+id/make_tv3"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="#E4E4E4"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="包数"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <EditText
+            android:id="@+id/make_tv4"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="数量"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <EditText
+            android:id="@+id/make_tv5"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="仓库"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:id="@+id/make_tv6"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="#E4E4E4"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <TextView
+            android:layout_width="@dimen/x300"
+            android:layout_height="match_parent"
+            android:background="#6AB1ED"
+            android:gravity="center"
+            android:text="批次"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+        <EditText
+            android:id="@+id/make_tv7"
+            android:layout_width="@dimen/x1000"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi"
+            android:inputType="textVisiblePassword"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorItemLine" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/x1308"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorItemLine" />
+
+    <Button
+        android:id="@+id/bt_add3"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y100"
+        android:layout_marginLeft="@dimen/x1500"
+        android:layout_marginTop="@dimen/y50"
+        android:background="#6AB1ED"
+        android:drawableLeft="@drawable/dg_icon"
+        android:padding="@dimen/x16"
+        android:text="添加"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+</LinearLayout>

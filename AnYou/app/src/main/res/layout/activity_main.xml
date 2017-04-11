@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/srl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/x140"
+        android:layout_height="match_parent"
+        android:background="#364048">
+
+        <ImageView
+            android:layout_width="@dimen/x88"
+            android:layout_height="@dimen/y88"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y9"
+            android:src="@drawable/logo_03" />
+
+        <TextView
+            android:id="@+id/main_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y100"
+            android:gravity="center"
+            android:text="安佑测试"
+            android:textColor="#FFF"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/main_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y150"
+            android:gravity="center"
+            android:text="安佑"
+            android:textColor="#FFF"
+            android:textSize="8sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/y200"
+            android:background="#404A54" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/y340"
+            android:background="#404A54" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/y480"
+            android:background="#404A54" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/y620"
+            android:background="#404A54" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/y760"
+            android:background="#404A54" />
+
+        <RadioGroup
+            android:id="@+id/main_rg"
+            android:layout_width="@dimen/x140"
+            android:layout_height="@dimen/y700"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/main_rb_1"
+                style="@style/MainRadioButton"
+                android:drawableTop="@drawable/icon_01_03"
+                android:text="采购入库" />
+
+            <RadioButton
+                android:id="@+id/main_rb_2"
+                style="@style/MainRadioButton"
+                android:drawableTop="@drawable/icon_02_03"
+                android:text="销售出库" />
+
+            <RadioButton
+                android:id="@+id/main_rb_3"
+                style="@style/MainRadioButton"
+                android:drawableTop="@drawable/icon_04_03"
+                android:text="生产收货" />
+
+            <RadioButton
+                android:id="@+id/main_rb_4"
+                style="@style/MainRadioButton"
+                android:drawableTop="@drawable/icon_03_07"
+                android:text="库存转储" />
+
+            <RadioButton
+                android:id="@+id/main_rb_5"
+                style="@style/MainRadioButton"
+                android:drawableTop="@drawable/icon_05_07"
+                android:text="其它操作" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="@dimen/x320"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2016.08.03"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/item2"
+        android:layout_width="@dimen/x320"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="13219"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <TextView
+        android:id="@+id/item3"
+        android:layout_width="@dimen/x780"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="安徽大亿有限公司"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+
+    <Button
+        android:id="@+id/item4"
+        android:layout_width="@dimen/x287"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/fz_ic"
+        android:padding="@dimen/x30"
+        android:text="下载 ↓"
+        android:textColor="#6AB1ED"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorItemLine" />
+</LinearLayout>
