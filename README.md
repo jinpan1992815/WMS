@@ -1,2 +1,0 @@
-# WMS
-My first application
