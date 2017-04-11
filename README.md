@@ -1,4 +1,4 @@
 # WMS
 My first application
 这是一个仓库管理系统!
-![image](https://github.com/jinpan1992815/WMS/AnYou/a.png)
+![image](https://github.com/jinpan1992815/AnYou/a.png)
